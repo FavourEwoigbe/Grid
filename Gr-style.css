@@ -1,0 +1,44 @@
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		background-color:#1A1C28;
+		
+		display: flex;
+		min-height: 100vh;
+		place-items: center;
+	}
+	main{
+		display: grid;
+		grid-template-areas:
+		"a a a b"
+		"c c d d"
+		    "e e";
+		display: flex;
+		gap: 10px;
+	}    
+main div{
+	padding:10em;
+}
+.red{
+	background-color: #EB5020
+      
+}
+.yellow{
+background-color: #FFA401
+      
+}
+.green{
+background-color: #05AA42
+     
+}
+.blue1{
+background-color: #01AEFD
+      
+}
+.blue2{
+	background-color: #01AEFD
+    
+</style>
